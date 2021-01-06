@@ -13,19 +13,24 @@ Knowledge Stack:
 - C#
 - Javascript/Typescript
 - C++
+
 ## Server side:
 - PHP
 - Node.js
+
 ## Databases:
 - MySQL, sqlite
 - mongodb
+
 ## Tools, Frameworks, Libraries
 - Unity
 - Three.js
 - Phaser.js
 - p5.js
+
 ## Game Design Tools
 - machinations.io
 - Articy Draft
+
 ## 3D Art Tools
 - Blender, ZBrush, Substance Painter
