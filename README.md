@@ -7,14 +7,25 @@
 I program using web programming technologies (three.js, phaser.js, p5.js), and both client-server with real-time technology (Unity, Socket.io, Node.js). 
 My game design focus is on **emergent narrative gameplay design**, and **multiplayer economy system design**.
 My background includes a degree in Psychology (B.A. Hons.), and I'm currently completing my Computer Science (B.Sc.) and Computation Arts (BFA) dual degree.
-Programming languages:
-Client side:
+
+Knowledge Stack:
+## Client side:
 - C#
 - Javascript/Typescript
 - C++
-Server side:
+## Server side:
 - PHP
 - Node.js
-Databases:
+## Databases:
 - MySQL, sqlite
 - mongodb
+## Tools, Frameworks, Libraries
+- Unity
+- Three.js
+- Phaser.js
+- p5.js
+## Game Design Tools
+- machinations.io
+- Articy Draft
+## 3D Art Tools
+- Blender, ZBrush, Substance Painter
