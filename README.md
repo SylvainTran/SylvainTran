@@ -1,6 +1,6 @@
 # My name is Sylvain Tran.
 ## I design and build digital multimedia experiences.
-## My focus is on designing multimedia experiences:
+## My core focus is on:
 - Core Game Prototypes
 - Interactive Multimedia Website Experiences (Canvas or WebGL embeds)
 
