@@ -1,8 +1,9 @@
 # My name is Sylvain Tran.
 ## I design and build digital multimedia experiences.
-## My core focus is on:
+## My focus is on creating:
 - Core Game Prototypes
-- Interactive Multimedia Website Experiences (Canvas or WebGL embeds)
+- Creative Interactive Multimedia Experiences (Canvas or WebGL embeds)
+- 3D Art and UV Map Art
 
 I program using web programming technologies (three.js, phaser.js, p5.js), and both client-server with real-time technology (Unity, Socket.io, Node.js). 
 My game design focus is on **emergent narrative gameplay design**, and **multiplayer economy system design**.
