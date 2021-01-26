@@ -37,3 +37,6 @@ Knowledge Stack:
 - ZBrush (Beginner) 
 - Substance Painter (Beginner)
 - Rhino 7 (Beginner)
+
+## Weekly learning objectives
+[w2021-learning-objectives](w2021-learning-objectives.html)
