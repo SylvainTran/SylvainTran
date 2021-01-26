@@ -1,37 +1,39 @@
 # My name is Sylvain Tran.
-## I design and build digital multimedia experiences.
-## My focus is on creating:
-- Core Game Prototypes
-- Creative Interactive Multimedia Experiences (Canvas or WebGL embeds)
-- 3D Art and UV Map Art
+## I'm a student of Computer Science and Computation Arts. I'm learning how to design and develop digital multimedia experiences:
+- Video game prototypes
+- Creative interactive multimedia experiences (Canvas or WebGL embeds)
+- 3D Art, Computational Modelling
 
-I program using web programming technologies (three.js, phaser.js, p5.js), and both client-server with real-time technology (Unity, Socket.io, Node.js). 
+I develop using web programming technologies (three.js, phaser.js, p5.js), and both client-server with real-time technology (Unity), Socket.io, and Node.js. 
 My game design focus is on **emergent narrative gameplay design**, and **multiplayer economy system design**.
 My background includes a degree in Psychology (B.A. Hons.), and I'm currently completing my Computer Science (B.Sc.) and Computation Arts (BFA) dual degree.
 
 Knowledge Stack:
-## Client side:
+## Client side (Intermediate):
 - C#
 - Javascript/Typescript
 - C++
 
-## Server side:
+## Server side (Beginner):
 - PHP
 - Node.js
 
-## Databases:
+## Databases (Beginner):
 - MySQL, sqlite
 - mongodb
 
 ## Tools, Frameworks, Libraries
-- Unity
-- Three.js
-- Phaser.js
-- p5.js
+- Unity (Intermediate)
+- Three.js (Beginner)
+- Phaser.js (Beginner)
+- p5.js (Intermediate)
 
 ## Game Design Tools
 - machinations.io
 - Articy Draft
 
 ## 3D Art Tools
-- Blender, ZBrush, Substance Painter
+- Blender (Intermediate)
+- ZBrush (Beginner) 
+- Substance Painter (Beginner)
+- Rhino 7 (Beginner)
