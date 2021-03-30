@@ -1,4 +1,4 @@
-# Hi, my name is Sylvain Tran. I make playful experiences and games using multimedia programming.
+# Hi, my name is Sylvain Tran. I make playful experiences and games using multimedia programming. I am also learning full-stack web development, mainly backend.
 
 B.A. Hons. in Psychology. 
 B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
