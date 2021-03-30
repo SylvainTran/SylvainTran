@@ -5,7 +5,7 @@ B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
 
 # Technologies
 - C#, Unity (intermediate)
-  - Playful Experiences/Games: 
+  - Playful Experiences/Games (in-progress prototypes): 
     - Momma Cub!
       - https://realsylvaintran.itch.io/momma-cub-club
     - Nobles Laying Traps
@@ -23,15 +23,13 @@ B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
   - University Projects (Playful Experiences/Games):
     - ALLISON’S THERAPY 3D
         - https://SylvainTran.github.io/cart253-Fall2019/projects/P3/
-          - An experimental WebGL/Javascript project that used the p5.js camera. Eccentric
-            experience.
+          - An experimental WebGL/Javascript project that used the p5.js camera.
     - THE DREAM OF A RIDICULOUS MAN 2D
         - https://SylvainTran.github.io/cart263-Winter2020/projects/p3/
-          - Used Phaser.js with a creative use of html forms, and the canvas. Fully functional
-            surrealistic/commentary game running in the browser. Work-in-progress.
+          - Used Phaser.js with the use of html forms, and the canvas.
     - BASAR
         - https://SylvainTran.github.io/cart253-Fall2019/projects/P2/
-          - A theological exploration of the flesh using p5.js/Javascript.
+          - An exploration of the body using p5.js.
         
 ## Server side (Beginner):
 - Node.js and Three.js
@@ -40,10 +38,8 @@ B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
       - http://asilkroad.herokuapp.com/
 - PHP, Databases (MySQL)
   - University Project: Anime Cookie
-      - Multi-page app version with admin, regular member, and public interfaces:
-         - http://www-desi.iro.umontreal.ca/~transylv/ift1147/tp2/server/index.php
-      - Ajax SPA version:
-         - http://www-desi.iro.umontreal.ca/~transylv/ift1147/tp3/server/index.php
+      - Multi-page app version with admin, regular member, and public interfaces. Ajax SPA version is under tp3.
+         - https://github.com/SylvainTran/anime-flix
       - Demo login for the admin functionality:
           - Username: admin@gmail.com
           - Password: ​admin@gmail.com
