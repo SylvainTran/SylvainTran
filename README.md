@@ -38,7 +38,7 @@ B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
       - http://asilkroad.herokuapp.com/
 - PHP, Databases (MySQL)
   - University Project: Anime Cookie
-      - Multi-page app version with admin, regular member, and public interfaces. Ajax SPA version is under tp3.
+      - Multi-page app version with admin, regular member, and public interfaces is under animeflix_multipages_src. Ajax SPA version is under animeflix_spa_src.
          - https://github.com/SylvainTran/anime-flix
       - Demo login for the admin functionality:
           - Username: admin@gmail.com
