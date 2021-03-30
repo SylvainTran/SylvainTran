@@ -24,11 +24,11 @@ B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
     - ALLISON’S THERAPY 3D
         - https://SylvainTran.github.io/cart253-Fall2019/projects/P3/
           - An experimental WebGL/Javascript project that used the p5.js camera. Eccentric
-          - experience.
+            experience.
     - THE DREAM OF A RIDICULOUS MAN 2D
         - https://SylvainTran.github.io/cart263-Winter2020/projects/p3/
           - Used Phaser.js with a creative use of html forms, and the canvas. Fully functional
-          - surrealistic/commentary game running in the browser. Work-in-progress.
+            surrealistic/commentary game running in the browser. Work-in-progress.
     - BASAR
         - https://SylvainTran.github.io/cart253-Fall2019/projects/P2/
           - A theological exploration of the flesh using p5.js/Javascript.
