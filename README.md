@@ -37,7 +37,7 @@ B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
     - A Silk Road, a multiplayer game using Node.js and Socket.io
       - http://asilkroad.herokuapp.com/
 - PHP, Databases (MySQL)
-  - University Project: Anime Cookie
+  - University Project: Animeflix
       - Multi-page app version with admin, regular member, and public interfaces is under animeflix_multipages_src. Ajax SPA version is under animeflix_spa_src.
          - https://github.com/SylvainTran/anime-flix
       - Demo login for the admin functionality:
