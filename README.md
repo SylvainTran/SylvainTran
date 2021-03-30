@@ -16,7 +16,7 @@ B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
       - https://realsylvaintran.itch.io/on-feeling-stuck
 
 ## Client side (Intermediate):
-- Javascript
+- JavaScript
   - Frontend:
     - Shipped websites
        - https://www.saintecatherinelaboure.org/      
@@ -34,6 +34,10 @@ B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
           - A theological exploration of the flesh using p5.js/Javascript.
         
 ## Server side (Beginner):
+- Node.js and Three.js
+  - University Projects:
+    - A Silk Road, a multiplayer game using Node.js and Socket.io
+      - http://asilkroad.herokuapp.com/
 - PHP, Databases (MySQL)
   - University Project: Anime Cookie
       - Multi-page app version with admin, regular member, and public interfaces:
@@ -46,7 +50,3 @@ B.Sc. Computer Science (B.Sc.), Computation Arts (BFA), '22.
       - Demo login for member functionality:
           - Username: ​membre@gmail.com
           - Password: ​membre@gmail.com
-- Node.js and Three.js
-  - University Projects:
-    - A Silk Road, a multiplayer game using Node.js and Socket.io
-      - http://asilkroad.herokuapp.com/
