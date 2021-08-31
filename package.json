@@ -1,0 +1,25 @@
+{
+  "name": "portfolio_eastern_leaf_style",
+  "version": "0.0.1",
+  "description": "My portfolio website themed after Eastern 2000s Japanese websites/blogs. The app uses React.js for interactive bits, p5.js and three.js for canvas animations, and Node.js for server functions (to serve content dynamically). It may use sqlite or MongoDB too.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "app",
+    "react.js",
+    "node.js",
+    "p5.js",
+    "three.js",
+    "mongodb",
+    "sqlite"
+  ],
+  "author": "Sylvain Tran",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<div id="head_index_container"></div>
+		<meta charset="UTF-8">
+		<title>Sylvain Tran: Creating Stuff</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/lib/p5.min.js"></script>
+		<script src="js/warm-welcome.js"></script>
+		<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+		<!-- Load our React component. -->
+		<script src="js/like_button.js"></script>
+	</head>
+
+	<body>
+		<div class="centered_container">
+			<div class="green_top_rect">
+				<div class="big_headlines_full">Sylvain Tran</div>
+			</div>
+			<div class='main_container'>
+				<div class="useless_small_dialogue">"Come peddling at my wares, have you?"</div>
+				<div class="small_dialogue_author">-A Friendly Adventurer</div>
+
+				<h5><em>The sign post reads: Creative Coder, and Life Adventurer</em></h5>
+				<div class="navbar">
+					<a href="#">my resume | </a>
+					<a href="#">my highlighted work | </a>
+					<a href="#">my adventure map | </a>
+					<a href="#">my contact</a>
+				</div>
+				<hr>
+				<h7>Welcome to my storage bank.</h7>
+				<div class="main__nav__pages">
+					<div class="green_top_rect">
+						<div class="article_headline">Cropware</div>
+					</div>
+					<ul class="left_aligned_list">
+						<li><a class="date_li" href="pages/games.html">Games</a>
+						<li><a href="pages/productivity-software.html">Productivity Software (In-Construction)</a>
+						<li><a href="pages/tools.html">Tools (In-Construction)</a>
+						<li><a href="pages/plugins.html">Plugins (In-Construction)</a>
+						<li><a href="pages/websites.html">Websites, Web Applications (In-Construction)</a>
+						<li><a href="pages/websites.html">Libraries, frameworks, open-source projects (In-Construction)</a>
+					</ul>
+					<div class="green_top_rect">
+						<div class="article_headline">Weedware</div>
+					</div>
+					<ul class="left_aligned_list">
+						<li><a href="pages/dmart.html">3D and Conceptual Art</a>
+						<li><a href="pages/tdart.html">Traditional Art</a>
+						<li><a href="pages/dev-blog.html">Developer's blog</a>
+						<li><a href="pages/forums.html">Creator's forums and potions</a>
+						<li><a href="pages/web-manga.html">Web Manga & Comics</a>
+						<li><a href="pages/fiction.html">Short Stories, Poetry, Dialogues, Essays, Weird Fiction</a>
+					</ul>
+				</div>
+				<div>The villagers have reacted:
+					<div id="like_button_container"></div>
+				</div>
+				<div class="canvas__sketches-container">
+					<div id="canvas__sketches--01"></div>
+				</div>
+				<canvas id='canvas'></canvas>
+				<footer class="green_top_rect">
+					<div class="big_headlines_full">Contact</div>
+					<p>I am currently taking work contracts of any nature similar to what you see here. Please contact me with the following information:</p>
+					<p>For business and other inquiries: <a href="#">sylvain.l.tran@gmail.com</a></p>
+					<p>For following my coding projects: <a href="#">My Github</a></p>
+					<p>Support me on Patreon. Buy me tea or coffee. Or food for me and my pets. <br><a href="#">My Patreon</a></p>
+					<p>To follow me on social media: <a href="#">LinkedIn</a> <a href="#">Itch.io</a> <a href="#">Steam</a> <a href="#">Youtube</a> <a href="#">Facebook</a> <a href="#">Twitter</a> <a href="#">Instagram</a></p>
+				</footer>
+			</div>
+		</div>
+
+		<script>
+			const domContainer = document.querySelector('#like_button_container');
+			// Get saved data from sessionStorage
+			let tickleFrames = sessionStorage.getItem('tickleFramesCount');
+			let stickPositionX = sessionStorage.getItem('stickPositionXSum');
+			if(stickPositionX == NaN || stickPositionX == null)
+			{
+				stickPositionX = 0;
+			}
+			console.log(stickPositionX);
+			ReactDOM.render(e(LikeButton), domContainer);
+		</script>
+	</body>
+</html>

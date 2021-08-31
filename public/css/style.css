@@ -1,0 +1,110 @@
+@font-face {
+    font-family: yumin;
+    src: url(../fonts/yumin.ttf);
+}
+@font-face {
+  font-family: notosansjp;
+  src: url(../fonts/NotoSansJP-Regular.otf);
+}
+html {
+  font-family: 'yumin', sans-serif;
+  background-color: rgb(250,247,238);
+}
+h1 {
+    font-family: 'yumin', sans-serif;
+}
+
+h2, h3, a {
+  font-family: 'notosansjp';
+}
+
+.big-headlines {
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.big_headlines_full {
+  color: white;
+  font-size: 27px;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.useless_small_dialogue {
+  font-family: 'yumin', sans-serif;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.extra_small_text {
+  font-size: 5px;
+  color: white;
+}
+
+.article_headline {
+  font-size: 20px;
+  padding-left: 5px;
+  text-align: left;
+  vertical-align: middle;
+  color: white;
+}
+
+.small_dialogue_author {
+  font-family: 'yumin', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.left_aligned_list {
+  font-family: 'notosansjp';
+  text-align: left;
+  font-size: 14px;
+  list-style-type: circle;
+}
+
+a {
+  color: rgb(89,145,184);
+}
+
+li .date_li::before {
+  content: 'Last Updated: 2021/08/22';
+  padding-right: 15px;
+}
+
+li > a {
+  font-family: 'yumin', sans-serif;
+}
+
+.navbar > a:visited, .navbar > a:link {
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar > a:hover {
+  font-style: italic;
+  color: Turquoise;
+}
+
+.canvas__sketches-container {
+  float: right;
+}
+
+.centered_container {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.green_top_rect {
+  background-color: rgb(96,121,102);
+  height: 30px;
+}
+
+.main_container {
+  height: 800px;
+  width: 600px;
+  background-color: rgb(252,247,229);
+}
