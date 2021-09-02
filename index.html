@@ -9,7 +9,6 @@
 		<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<script src="js/lib/p5.min.js"></script>
-		<script src="js/warm-welcome.js"></script>
 		<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
 		<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 		<!-- Load our React component. -->
@@ -56,32 +55,12 @@
 						<li><a href="pages/fiction.html">Short Stories, Poetry, Dialogues, Essays, Weird Fiction</a>
 					</ul>
 				</div>
-				<div>The villagers have reacted:
-					<div id="like_button_container"></div>
-				</div>
-				<div class="canvas__sketches-container">
-					<div id="canvas__sketches--01"></div>
-				</div>
-				<canvas id='canvas'></canvas>
 				<footer class="green_top_rect">
 					<div class="big_headlines_full">Contact</div>
 					<p>For business and other inquiries: <a href="#">sylvain.l.tran@gmail.com</a></p>
-					<p>Social media: <a href="#">Github></a> <a href="#">LinkedIn</a> <a href="#">Itch.io</a> <a href="#">Steam</a> <a href="#">Youtube</a> <a href="#">Facebook</a> <a href="#">Twitter</a> <a href="#">Instagram</a></p>
+					<p>Social media: <a href="#">Github</a> <a href="#">LinkedIn</a> <a href="#">Itch.io</a> <a href="#">Steam</a> <a href="#">Youtube</a> <a href="#">Facebook</a> <a href="#">Twitter</a> <a href="#">Instagram</a></p>
 				</footer>
 			</div>
 		</div>
-
-		<script>
-			const domContainer = document.querySelector('#like_button_container');
-			// Get saved data from sessionStorage
-			let tickleFrames = sessionStorage.getItem('tickleFramesCount');
-			let stickPositionX = sessionStorage.getItem('stickPositionXSum');
-			if(stickPositionX == NaN || stickPositionX == null)
-			{
-				stickPositionX = 0;
-			}
-			console.log(stickPositionX);
-			ReactDOM.render(e(LikeButton), domContainer);
-		</script>
 	</body>
 </html>
