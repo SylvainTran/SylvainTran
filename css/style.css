@@ -64,12 +64,19 @@ h2, h3, a {
   list-style-type: circle;
 }
 
+.right_aligned_list {
+  font-family: 'notosansjp';
+  text-align: right;
+  font-size: 14px;
+  list-style-type: circle;
+}
+
 a {
   color: rgb(89,145,184);
 }
 
-li .date_li::before {
-  content: 'Last Updated: 2021/08/22';
+li .date_li::after {
+  content: ' :: Last Updated: 2021/09/21';
   padding-right: 15px;
 }
 
@@ -100,11 +107,21 @@ li > a {
 
 .green_top_rect {
   background-color: rgb(96,121,102);
-  height: 30px;
+  height: 40px;
 }
 
 .main_container {
-  height: 650px;
+  height: max-content;
   width: 600px;
   background-color: rgb(252,247,229);
+}
+
+.no-link-display > div {
+  color: grey;
+  text-decoration: none;
+}
+
+.creative-coding-embed {
+  height: 400px;
+  width: 400px;
 }
