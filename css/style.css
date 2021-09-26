@@ -6,16 +6,33 @@
   font-family: notosansjp;
   src: url(../fonts/NotoSansJP-Regular.otf);
 }
+
 html {
   font-family: 'yumin', sans-serif;
   background-color: rgb(250,247,238);
 }
+
 h1 {
     font-family: 'yumin', sans-serif;
 }
 
 h2, h3, a {
   font-family: 'notosansjp';
+}
+
+.flex-container {
+  display: flex;
+}
+
+.main_right {
+  background-color: rgb(200, 200, 201);
+  height: 300px;
+  width: 300px;
+  overflow: scroll;
+}
+
+.main_container_right-align {
+
 }
 
 .big-headlines {
@@ -112,8 +129,8 @@ li > a {
 
 .centered_container {
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: auto;
+  width: 600px;
 }
 
 .green_top_rect {
