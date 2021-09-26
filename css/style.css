@@ -26,10 +26,15 @@ h2, h3, a {
 }
 
 .big_headlines_full {
-  color: white;
-  font-size: 27px;
   text-align: left;
   padding-left: 25px;
+}
+
+.big_headlines_full > a {
+  font-family: 'notosansjp';
+  color: white;
+  font-size: 27px;
+  text-decoration: none;
 }
 
 .useless_small_dialogue {
@@ -129,4 +134,16 @@ li > a {
 .project-image {
   width: 600px;
   height: 200px;
+}
+
+.project-title {
+  position: relative;
+  top: 120px;
+  font-family: 'notosansjp';
+  font-size: 35px;
+  color: yellow;
+}
+.project-title:hover {
+  color: orangered;
+  cursor: help;
 }
