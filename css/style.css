@@ -67,6 +67,7 @@ h2, h3, a {
   text-align: left;
   font-size: 14px;
   list-style-type: circle;
+  color: teal;
 }
 
 .right_aligned_list {
@@ -77,7 +78,12 @@ h2, h3, a {
 }
 
 a {
-  color: rgb(89,145,184);
+  color: rgb(16, 4, 133);
+}
+
+a:hover {
+  font-size: 19px;
+  color:rgb(19, 47, 187);
 }
 
 li .date_li::after {
@@ -90,7 +96,7 @@ li > a {
 }
 
 .navbar > a:visited, .navbar > a:link {
-  color: grey;
+  color: teal;
   text-decoration: none;
   font-weight: bold;
 }
@@ -111,18 +117,18 @@ li > a {
 }
 
 .green_top_rect {
-  background-color: rgb(96,121,102);
+  background-color: rgb(19, 47, 187);
   height: 40px;
 }
 
 .main_container {
   height: max-content;
   width: 600px;
-  background-color: rgb(252,247,229);
+  background-color: rgb(200, 200, 201);
 }
 
 .no-link-display > div {
-  color: grey;
+  color: rgb(87, 41, 41);
   text-decoration: none;
 }
 
@@ -146,4 +152,8 @@ li > a {
 .project-title:hover {
   color: orangered;
   cursor: help;
+}
+
+p, h5 {
+  color: teal;
 }
