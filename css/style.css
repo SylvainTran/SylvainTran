@@ -125,3 +125,8 @@ li > a {
   height: 400px;
   width: 400px;
 }
+
+.project-image {
+  width: 600px;
+  height: 200px;
+}
