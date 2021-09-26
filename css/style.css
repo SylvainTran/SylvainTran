@@ -98,9 +98,16 @@ a {
   color: rgb(16, 4, 133);
 }
 
-a:hover {
+.main__nav__pages_a a:hover {
   font-size: 19px;
   color:rgb(19, 47, 187);
+}
+
+.no-style-link {
+  font-size: 35px;
+  color: yellow;
+  text-decoration: none;
+  cursor: help;
 }
 
 li .date_li::after {
