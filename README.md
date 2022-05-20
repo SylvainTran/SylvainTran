@@ -5,13 +5,12 @@
 </div>  
   
 
-### <div align="center">I'm Sylvain, a Game Developer / Designer 🚀</div>  
-  
+### <div align="center">I'm Sylvain, a Canadian Frontend & Interactive Media programmer, and 3D Design Generalist. 🚀</div>    
 
 - 🔭 I’m currently working on [Speculative Play 2](https://github.com/SylvainTran/speculative-futures-project-2), [You Never Lied](https://github.com/SylvainTran/You-Never-Lied) and [A CBT Game](https://github.com/SylvainTran/deepwell_gamejam_2022)  
   
 
-- 🌱 I’m currently learning Unity and C# more in depth, and preparing for the Expert certification.  
+- 🌱 I’m currently learning Front End web development with JavaScript, Unity and C# more in depth. 
   
 
 - ❓ Chat me about anything related to game design, level design, Jesus Christ our Savior, Unity and other game development technologies.  
