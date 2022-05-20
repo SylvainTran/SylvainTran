@@ -1,25 +1,40 @@
 {
-  "name": "portfolio_eastern_leaf_style",
-  "version": "0.0.1",
-  "description": "My portfolio website themed after Eastern 2000s Japanese websites/blogs. The app uses React.js for interactive bits, p5.js and three.js for canvas animations, and Node.js for server functions (to serve content dynamically). It may use sqlite or MongoDB too.",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
+  "name": "bulma-start",
+  "version": "0.0.5",
+  "description": "Start package for Bulma",
   "keywords": [
-    "portfolio",
-    "website",
-    "app",
-    "react.js",
-    "node.js",
-    "p5.js",
-    "three.js",
-    "mongodb",
-    "sqlite"
+    "sass",
+    "bulma",
+    "css",
+    "start"
   ],
-  "author": "Sylvain Tran",
+  "author": "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgthms/bulma-start.git"
+  },
   "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015-ie": "^6.7.0",
+    "bulma": "^0.9.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.51.0"
+  },
+  "scripts": {
+    "css-deploy": "npm run css-build && npm run css-postcss",
+    "css-build": "sass --no-source-map _sass/main.scss:css/main.css",
+    "css-postcss": "postcss --use autoprefixer --output css/main.css css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "deploy": "npm run css-deploy && npm run js-build",
+    "js-build": "babel _javascript --out-dir lib",
+    "js-watch": "npm run js-build -- --watch",
+    "start": "npm-run-all --parallel css-watch js-watch"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "styled-components": "^5.3.5"
   }
 }
