@@ -1,29 +1,7 @@
-### Sylvain Tran's Github  
-<div align="center">
-</div>  
+## Canadian Frontend & Interactive Media programmer, and 3D Design Generalist. 🚀
   
-
-### <div align="center">I'm Sylvain, a Canadian Frontend & Interactive Media programmer, and 3D Design Generalist. 🚀</div>    
-
-- 🔭 I’m currently working on [Speculative Play 2](https://github.com/SylvainTran/speculative-futures-project-2), [You Never Lied](https://github.com/SylvainTran/You-Never-Lied) and [A CBT Game](https://github.com/SylvainTran/deepwell_gamejam_2022)  
-  
-
-- 🌱 I’m currently learning Front End web development with JavaScript, Unity and C# more in depth. 
-  
-
-- ❓ Chat me about anything related to game design, level design, Jesus Christ our Savior, Unity and other game development technologies.  
-  
-
-- ⚡ Fun fact: I am itching to go outside!  
-  
-
-<br/>  
-
-
-## My Skill Set  
+### My Skill Set  
 <table><tr><td valign="top" width="33%">
-
-
 
 ### Frontend  
 <div align="center">  
@@ -38,8 +16,6 @@
 </div>
 
 </td><td valign="top" width="33%">
-
-
 
 ### Backend  
 <div align="center">  
@@ -78,7 +54,7 @@
 <br/>  
 
 
-## Connect with me  
+### Connect with me  
 <div align="center">
 <a href="https://github.com/SylvainTran" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
@@ -92,7 +68,7 @@
 <br/>  
 
 
-## Github Stats  
+### Github Stats  
 
 
 ### Stats Don't Define You  
@@ -101,14 +77,8 @@
 <br/>  
 
 
-## Recent Blog Posts  
-  
+### Recent Blog Posts  
 
-<br/>  
-
-  
-
-<br/>  
 
 <div align="center">
 <img src="https://komarev.com/ghpvc/?username=SylvainTran&&style=flat-square" align="center" />
