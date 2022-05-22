@@ -1,4 +1,4 @@
-## Canadian Frontend & Interactive Media programmer, and 3D Design Generalist. 🚀
+## Canadian Frontend/Full Stack & Interactive Media programmer. 3D Design Generalist. 🚀
   
 ### My Skill Set  
 <table><tr><td valign="top" width="33%">
