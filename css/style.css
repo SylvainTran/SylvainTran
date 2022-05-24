@@ -216,6 +216,10 @@ body {
   gap: 1.5em;
 }
 
+.portfolio-item-playlink {
+  font-size: 3rem;
+}
+
 .article-description {
   width: 50%;
 }

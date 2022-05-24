@@ -1,0 +1,20 @@
+.is-four-by-four-el {
+    width: 50%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+ 
+    column-gap: 0;
+    row-gap: 0;
+}
+
+.grid-item video {
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}

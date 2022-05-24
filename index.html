@@ -101,7 +101,7 @@
                 <h1>Portfolio</h1>
                 <hr />
                 <nav>
-                    <button disabled className="button is-secondary black-font" onClick={this.updatePortfolioSelectionCriteria.bind(this, "Web")}>Frontend and Specialized Creative Web Experiences (In Construction)</button>
+                    <button className="button is-secondary black-font" onClick={this.updatePortfolioSelectionCriteria.bind(this, "Website")}>Frontend and Specialized Creative Web Experiences (In Construction)</button>
                     <button className="button is-secondary black-font" onClick={this.updatePortfolioSelectionCriteria.bind(this, "Game")}>Game Development and Design</button>
                     <button className="button is-secondary black-font" onClick={this.updatePortfolioSelectionCriteria.bind(this, "Level Art")}>Level Art</button>
                     <button className="button is-secondary black-font" onClick={this.updatePortfolioSelectionCriteria.bind(this, "Computer Science")}>Computer Graphics & Science</button>
@@ -207,7 +207,7 @@
                     Reflection: {this.props.gameReflection}
                   </p> : null}
   
-                  {this.props.hasPlayLink? <a href={this.props.hasPlayLink}>Play Link!</a> : null}
+                  {this.props.hasPlayLink? <a className="portfolio-item-playlink" href={this.props.hasPlayLink}>Play Link!</a> : null}
                 </article>
               </div>
             );
@@ -342,7 +342,21 @@
             pica: "./assets/youneverlied01.PNG",
             picb: "./assets/youneverlied03.PNG",
             picc: "./assets/youneverlied07.PNG"
-          }        
+          },
+          {
+            name: " Adventure Agency",
+            tags: ["Website"],
+            elevatorPitch: " A mobile-first single-page application (SPA) creative advertising website inspired by the creative agency Blacknegative.",
+            description: " A creative advertising website which uses advanced CSS concepts, React.js and Redux. Uses grid, flexbox, advanced CSS animations, transforms, carousels, video media integration, and I'm currently working on embedding a three.js interactive 3D canvas in one of the pages.",
+            roles: " Frontend & Full Stack Web Programmer",
+            process: " I took inspiration from the blacknegative creative agency that won recognition for their inspiring and simple but elegant design. I decided to recreate my own version based on it, and improving some design elements that I thought were justifiable (such as element sizes, and mobile-first responsiveness which was missing from the original blacknegative website). I also added three.js 3D elements for the joy and practice. In this project, I learned a lot of things about CSS in particular, and how much can be done with just it. I also learned a lot about integrating JavaScript libraries that simplify prototyping, such as Flickity for the physics-based carousel. I also manually calculated a lot of math for the menu keyboards to make the animated subtitles perfectly centered!",
+            materials: null,
+            reflection: null,
+            hasPlayLink: "./assets/adventureagency/index.html",
+            pica: "./assets/aa01.PNG",
+            picb: "./assets/aa02.PNG",
+            picc: "./assets/aa03.PNG"
+          }                  
         ];
 
         let websites = [
@@ -369,7 +383,31 @@
             reflection: null,
             hasPlayLink: true,
             playLink: ""
-          }
+          },
+          {
+            name: " Blacknegative Inspired Website",
+            tags: ["Website"],
+            elevatorPitch: " A mobile-first SPA creative advertising website inspired by the creative agency Blacknegative which uses advanced CSS animations, transforms, carousels, media integrations, and three.js 3D canvas.",
+            description: " A website which uses advanced CSS concepts. Pure SPA React.js creative advertising website.",
+            roles: " Frontend & Full Stack Web Programmer",
+            process: " I took inspiration from the blacknegative creative agency that won recognition for their inspiring design. I decided to recreate my own version based on it, and improving some design elements that I thought were justifiable (such as element sizes, and mobile-first responsiveness which was missing from the original blacknegative website). I also added three.js 3D elements for the joy and practice. In this project, I learned a lot of things about CSS in particular, and how much can be done with just it. I also learned a lot about integrating JavaScript libraries that simplify prototyping, such as Flickity for the physics-based carousel. I also manually calculated a lot of math for the menu keyboards to make the animated subtitles perfectly centered!",
+            materials: null,
+            reflection: null,
+            hasPlayLink: true,
+            playLink: "./assets/blacknegativeinspired.html"
+          },
+          {
+            name: " Paroisse Sainte-Catherine Laboure Church",
+            tags: ["Website"],
+            elevatorPitch: " A website focused on simplicity, elegance, frequent scheduling and time management functionality.",
+            description: " I redesigned this website several times. The client wanted simplicity and management functionality. The original version had a gmail calendar embed, but the design was a bit rough on the edges so I decided to make my own calendar integration and program an admin dashboard for the client to make updating mass schedules more efficient and less error-prone.",
+            roles: " Frontend & Full Stack Web Programmer",
+            process: " I redesigned the website based on the client's main use cases, which I obtained after several correspondences.",
+            materials: null,
+            reflection: null,
+            hasPlayLink: true,
+            playLink: "https://www.saintecatherinelaboure.org"
+          }          
         ]
         class HomePage extends React.Component {
   
