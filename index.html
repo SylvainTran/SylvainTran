@@ -35,7 +35,7 @@
     <!-- Scripts -->
     <script type="text/jsx">
         const app = document.getElementById('app');
-  
+
         function PresentationHeader() {
           return (
             <div className="uk-grid" data-uk-grid-margin>
@@ -46,7 +46,7 @@
                 </div>
             </div>);
         }
-  
+
         function ProfileBusinessCard() {
           return (
           <div className="is-flex flex-start-end">
@@ -59,7 +59,7 @@
             </div>
           </div>);
         }
-  
+
         class PortfolioNavbar extends React.Component {
           constructor(props) {
             super(props);
@@ -68,33 +68,33 @@
             this.restorePrimaryBgColor = this.restorePrimaryBgColor.bind(this);
             this.restoreSecondaryBgColor = this.restoreSecondaryBgColor.bind(this);
           }
-  
+
           updatePortfolioSelectionCriteria(selectedPortfolioItem, evt) {
             this.props.updatePortfolioSelectionCriteria(selectedPortfolioItem);
-  
+
             if (!evt.target.classList.contains("darker-turquoise-bg")) {
               evt.target.classList.add("darker-turquoise-bg");
             } else {
               evt.target.classList.remove("darker-turquoise-bg");
             }
           }
-  
+
           setHoverPrimaryColor(evt) {
             evt.target.classList.add("turquoise-bg");
           }
-  
+
           setHoverSecondaryColor(evt) {
             evt.target.classList.add("turquoise-bg");
           }
-  
+
           restorePrimaryBgColor(evt) {
             evt.target.classList.remove("turquoise-bg");
           }
-  
+
           restoreSecondaryBgColor(evt) {
             evt.target.classList.remove("turquoise-bg");
           }
-  
+
           render() {
             return (
               <div className="">
@@ -105,37 +105,37 @@
                     <button className="button is-secondary black-font" onClick={this.updatePortfolioSelectionCriteria.bind(this, "Game")}>Game Development and Design</button>
                     <button className="button is-secondary black-font" onClick={this.updatePortfolioSelectionCriteria.bind(this, "Level Art")}>Level Art</button>
                     <button className="button is-secondary black-font" onClick={this.updatePortfolioSelectionCriteria.bind(this, "Computer Science")}>Computer Graphics & Science</button>
-                </nav>    
+                </nav>
                 <br/>
             </div>);
           }
         }
-  
+
         class PortfolioSection extends React.Component {
           constructor(props) {
             super(props);
           }
-  
+
           render() {
-  
+
             return (
               <section className="full-width">
               {this.props.selectedPortfolioItems != null ?
                 this.props.selectedPortfolioItems.map(portfolioItemObject => {
                   return (
                     <div key={portfolioItemObject.name}>
-                      <PortfolioItem 
-                        highlightsVideo={portfolioItemObject.highlightsVideo} 
-                        pica={portfolioItemObject.pica} 
-                        picb={portfolioItemObject.picb} 
-                        picc={portfolioItemObject.picc}                                                 
-                        gameTitle={portfolioItemObject.name} 
-                        gameElevatorPitch={portfolioItemObject.elevatorPitch} 
-                        gameDescription={portfolioItemObject.description} 
-                        gameRoles={portfolioItemObject.roles} 
-                        gameProcess={portfolioItemObject.process} 
-                        gameMaterials={portfolioItemObject.materials} 
-                        gameReflection={portfolioItemObject.reflection} 
+                      <PortfolioItem
+                        highlightsVideo={portfolioItemObject.highlightsVideo}
+                        pica={portfolioItemObject.pica}
+                        picb={portfolioItemObject.picb}
+                        picc={portfolioItemObject.picc}
+                        gameTitle={portfolioItemObject.name}
+                        gameElevatorPitch={portfolioItemObject.elevatorPitch}
+                        gameDescription={portfolioItemObject.description}
+                        gameRoles={portfolioItemObject.roles}
+                        gameProcess={portfolioItemObject.process}
+                        gameMaterials={portfolioItemObject.materials}
+                        gameReflection={portfolioItemObject.reflection}
                         hasPlayLink={portfolioItemObject.hasPlayLink} />
                       <br /><br />
                     </div>);
@@ -145,33 +145,33 @@
               </section>);
             }
         }
-  
+
         class PortfolioItem extends React.Component {
           constructor(props) {
             super(props);
           }
-  
+
           render() {
             return (
               <div className="portfolio-item">
                 {/* Project highlights video and hero pics */}
-                <div className="is-flex flex-vertical">                
+                <div className="is-flex flex-vertical">
                     {this.props.highlightsVideo ?
                     <video muted width="512" height="512" controls>
                         <source src={this.props.highlightsVideo} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                    : null}                    
+                    : null}
                     <div className="portfolio-item-pics is-flex flex-vertical">
-                        {this.props.pica ? 
+                        {this.props.pica ?
                             <img src={this.props.pica} alt="portfolio-item-pic-a" />
                         : null}
-                        {this.props.picb ? 
+                        {this.props.picb ?
                             <img src={this.props.picb} alt="portfolio-item-pic-b" />
                         : null}
-                        {this.props.picc ? 
+                        {this.props.picc ?
                             <img src={this.props.picc} alt="portfolio-item-pic-c" />
-                        : null}                                                
+                        : null}
                     </div>
                 </div>
 
@@ -180,40 +180,40 @@
                   <h1>{this.props.gameTitle}</h1>
                   <br />
                   <h7>{this.props.gameElevatorPitch}</h7>
-  
+
                   <br /><br />
                   <p>
                     Description:
                       {this.props.gameDescription}
                   </p>
-  
+
                   <br />
                   <p>
                     Roles:
                       {this.props.gameRoles}
                   </p>
-  
+
                   <br />
                   <p>
                     Process:
                       {this.props.gameProcess}
                   </p>
-  
+
                   {this.props.gameMaterials? <p>
                     Materials: {this.props.gameMaterials}
                   </p> : null}
-  
+
                   {this.props.gameReflection? <p>
                     Reflection: {this.props.gameReflection}
                   </p> : null}
-  
+
                   {this.props.hasPlayLink? <a className="portfolio-item-playlink" href={this.props.hasPlayLink}>Play Link!</a> : null}
                 </article>
               </div>
             );
           }
         }
-  
+
         //TODO: JSON
         let PortfolioItemsData = [
           {
@@ -246,7 +246,7 @@
             highlightsVideo: null,
             pica: "./assets/mommacub.PNG",
             picb: "./assets/mommacub5.PNG",
-            picc: "./assets/mommacub2.PNG"            
+            picc: "./assets/mommacub2.PNG"
           },
           {
             name: " ArtEX Raytracer",
@@ -310,7 +310,7 @@
             pica: "",
             picb: "",
             picc: ""
-            },        
+            },
           {
             name: " 3D Archangel Sculpture",
             tags: ["Completed", "Computer Science"],
@@ -322,7 +322,7 @@
             reflection: null,
             hasPlayLink: false,
             playLink: null,
-            highlightsVideo: null,            
+            highlightsVideo: null,
             pica: "assets/sculpt_portfolio_01.jpg",
             picb: "",
             picc: ""
@@ -338,7 +338,7 @@
             reflection: null,
             hasPlayLink: false,
             playLink: null,
-            highlightsVideo: null,            
+            highlightsVideo: null,
             pica: "./assets/youneverlied01.PNG",
             picb: "./assets/youneverlied03.PNG",
             picc: "./assets/youneverlied07.PNG"
@@ -356,7 +356,7 @@
             pica: "./assets/aa01.PNG",
             picb: "./assets/aa02.PNG",
             picc: "./assets/aa03.PNG"
-          }                  
+          }
         ];
 
         let websites = [
@@ -407,26 +407,26 @@
             reflection: null,
             hasPlayLink: true,
             playLink: "https://www.saintecatherinelaboure.org"
-          }          
+          }
         ]
         class HomePage extends React.Component {
-  
+
             constructor(props) {
               super(props);
               this.state = {selectedPortfolioCriteria: [], submittedInterest: false, interested: null};
               this.updatePortfolioSelectionCriteria = this.updatePortfolioSelectionCriteria.bind(this);
-        
+
               // Setup initial portfolio display items
               this.getAllPortfolioItems = this.getAllPortfolioItems.bind(this);
             }
-        
+
             getAllPortfolioItems() {
               // TODO: READ FROM JSON
               return PortfolioItemsData;
             }
-        
+
             deselectPortfolioItemCriteria(index) {
-        
+
               // Case where array len === 1
               if (this.state.selectedPortfolioCriteria.length === 1) {
                 this.setState({selectedPortfolioCriteria: []});
@@ -439,11 +439,11 @@
                 this.setState({selectedPortfolioCriteria: startAtOne});
                 return;
               }
-        
+
               let deselected;
               let beforeIndex = this.state.selectedPortfolioCriteria.slice(0, index);
               let afterIndex = this.state.selectedPortfolioCriteria.slice(index + 1);
-        
+
               if (afterIndex.length === 0) {
                 // Tail case
                 deselected = beforeIndex;
@@ -456,12 +456,12 @@
                 selectedPortfolioCriteria: deselected
               });
             }
-        
+
             shouldDisplay() {
               // Should Display or not
               const portfolioItems = this.getAllPortfolioItems();
               let selectIndex = -1;
-        
+
               for(let i=0; i < portfolioItems.length; i++) {
                 for(let j=0; j < portfolioItems[i].tags.length; j++) {
                   if (portfolioItems[i].tags[j] === criteriaString) {
@@ -471,9 +471,9 @@
                 }
               }
             }
-        
+
             updatePortfolioSelectionCriteria(criteriaString) {
-        
+
               for(let i=0; i < this.state.selectedPortfolioCriteria.length; i++) {
                 if (this.state.selectedPortfolioCriteria[i] === criteriaString) {
                   // deselect
@@ -481,71 +481,71 @@
                   return;
                 }
               }
-        
+
               // We want to add a new criteria to our array of criterias, that's it
               // Add to selection array
               let curr = this.state.selectedPortfolioCriteria.slice();
               curr.push(criteriaString);
               this.setState({selectedPortfolioCriteria: curr});
             }
-        
+
             handleSubmittedInterest(interest) {
               this.setState({interested: interest});
             }
-        
+
             submitInterest() {
               if (this.state.interest != null) {
                 console.log("Submitted interest: " + this.state.interested);
                 this.setState({submittedInterest: true})
               }
             }
-        
+
             render() {
               let selectedPortfolioCriteria = this.state.selectedPortfolioCriteria;
               let allPortfolioItems = this.getAllPortfolioItems();
               let selectedPortfolioItems = [];
-        
+
               // We're just triyng to refresh the array of selected portfolio items
               // Those that have any of the current tags are good to go
               selectedPortfolioCriteria.forEach( criteria => { // All
-        
+
                 allPortfolioItems.forEach( portfolioItemObject => {
-        
+
                   if (portfolioItemObject.tags.includes(criteria)) {
                     selectedPortfolioItems.push(portfolioItemObject);
                   }
                 });
               });
-        
+
               return (
                 <div className="global-container">
-        
+
                 <section className="is-flex">
                     <PresentationHeader />
                 </section>
-        
+
                 <div className="">
                     <nav className="uk-navbar">
                         <ul className="uk-navbar-nav uk-hidden-small">
-                        <li><a href="SylvainTran.pdf">CV</a></li>
+                        <li><a href="SylvainTran_May312022_ENG.pdf">CV</a></li>
                         <li><a href="#">Project Reel (2021-2022) - In Construction</a></li>
                         </ul>
-                    </nav>                      
-                </div>  
-        
+                    </nav>
+                </div>
+
                 <div>
                     {/* Selection work that have the criterias as tag */}
                     <PortfolioNavbar updatePortfolioSelectionCriteria={this.updatePortfolioSelectionCriteria} />
-    
+
                     {/* Gallery of all selected portfolio items */}
                     {selectedPortfolioItems.length > 0 ?
                     <PortfolioSection selectedPortfolioItems={selectedPortfolioItems} /> : null}
                 </div>
-            </div>);        
+            </div>);
 
-        }            
-    }            
-        
+        }
+    }
+
     ReactDOM.render(
        <React.StrictMode>
        <HomePage />
